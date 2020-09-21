@@ -4,7 +4,7 @@ class divide_adic_test(Scene):
         nines = TextMobject("$\\overline{...999999}$")
         minus = TextMobject("-")
         ones = TextMobject("$\\overline{...111111}$")
-        line = Polygon(np.array([-0.75, -0,5], [0.75, -0,5]), color=WHITE)
+        line = Polygon(np.array([-0.75, -0,5, 0], [0.75, -0,5, 0]), color=WHITE)
         result = TextMobject("...888888")
         comment = TextMobject("tl;dr: cursed number")
         nines.shift(1*UP)
